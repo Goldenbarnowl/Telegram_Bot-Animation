@@ -12,6 +12,7 @@ import time
 
 TOKEN = input("Введите токен бота>> ")
 bot = telebot.TeleBot(TOKEN)
+print("\nТокен введен успешно, бот активен!")
 #-----------------------------------------------------------------------------------
 
 @bot.message_handler(commands=['start'])
