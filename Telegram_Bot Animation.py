@@ -32,7 +32,7 @@ def welcome(message):
 
     markup.add(item1, item2)
 
-    bot.send_message(message.chat.id, 'Выберите интересющую вас анимацию:'.format(message.from_user), reply_markup=markup)
+    bot.send_message(message.chat.id, 'Выберите интересующую вас анимацию:'.format(message.from_user), reply_markup=markup)
 
 #-----------------------------------------------------------------------------------
 
@@ -95,7 +95,7 @@ def bot_message(message):
 
             markup.add(item1, item2)
 
-            bot.send_message(message.chat.id, 'Выберите интересющую вас анимацию:'.format(message.from_user),reply_markup=markup)
+            bot.send_message(message.chat.id, 'Выберите интересующую вас анимацию:'.format(message.from_user),reply_markup=markup)
 #-----------------------------------------------------------------------------------
 
 bot.polling(none_stop=True)
