@@ -19,3 +19,6 @@ Ready!
 3. Введите токен бота Telegram
 4. Нажмите кнопку с нужной вам анимацией
 Готово!
+
+https://user-images.githubusercontent.com/128917932/228219027-de156567-0e3d-4a35-a88c-383dcb520fd6.mp4
+
